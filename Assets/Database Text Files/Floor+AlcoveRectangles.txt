@@ -1,0 +1,48 @@
+# rectangles for placing floor items
+L1.FL.FR,-38,160,64,23
+L1.L.FL,297,160,64,23
+L1.L.FR,374,160,64,23
+L1.C.FL,170,160,64,23
+L1.C.FR,224,160,64,23
+L1.R.FL,298,160,64,23
+L1.R.FR,374,160,64,23
+L1.FR.FL,417,160,64,23
+
+# L2.L.BL note negative Position.X
+L2.L.BL,-10,183,58,18
+L2.L.BR,74,183,58,18
+# L2.L.FL note negative Position.X
+L2.L.FL,-70,195,85,21
+L2.L.FR,41,195,85,21
+
+L2.C.BL,140,183,84,18
+L2.C.BR,224,183,84,18
+L2.C.FL,120,195,104,21
+L2.C.FR,224,195,104,21
+
+L2.R.BL,308,183,58,18
+# L2.R.BR note Rect.Width = 448 - Position.X
+L2.R.BR,405,183,58,18
+L2.R.FL,328,195,85,21
+# L2.R.FR note Rect.Width = 448 - Position.X
+L2.R.FR,430,195,85,21
+
+# BR.L3 note negative Position.X
+L3.L.BR,0,220,98,22
+L3.L.FR,-62,240,130,44
+L3.C.BL,101,220,125,22
+L3.C.BR,224,220,125,22
+L3.C.FL,62,240,162,44
+L3.C.FR,224,240,162,44
+L3.R.BL,350,220,98,22
+# L3.R.FL note Rect.Width = 448 - Position.X
+L3.R.FL,380,240,68,44
+
+# Layer 4 -> only has Back L and Back R
+L4.C.BL,30,286,195,40
+L4.C.BR,224,286,195,40
+
+# alcove
+Alcove.C1,195,146,62,8
+Alcove.C2,183,166,80,10
+Alcove.C3,156,204,135,16

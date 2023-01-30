@@ -1,0 +1,318 @@
+D.Torch,606,0,121,17
+D.Rock,728,0,24,16
+D.Compass,716,245,31,20
+D.Ashes,610,18,94,33
+D.Boulder,705,18,45,32
+D.Rabbit's Foot,722,190,22,17
+D.Horn,618,52,64,33
+D.Mirror,683,52,60,31
+D.Magnifier,687,84,34,21
+D.Scroll,618,86,68,17
+D.LockPicks,722,86,30,18
+D.Corbamite,592,109,24,28
+D.Green Magical Box,618,104,30,31
+D.Blue Magical Box,649,104,30,31
+D.Bolt Bomb,561,138,32,41
+D.Ven Bomb,594,138,32,41
+D.Ful Bomb,627,138,32,41
+D.Water Flask:Empty,660,136,32,43
+D.Water Flask:Full,693,136,32,43
+D.Orange Gem,680,108,21,16
+D.Green Gem,702,108,21,16
+D.Blue Gem,724,108,21,16
+D.Silver Coin,557,117,16,8
+D.Gold Coin,557,126,16,8
+D.Iron Key,449,159,32,10
+D.Gold Key,482,159,32,11
+D.Black Clothes,0,0,128,38
+D.Brown Clothes,0,39,128,38
+D.Elven Clothes,0,78,128,38
+D.Blue Clothes,0,117,122,43
+D.White Cothes,0,161,126,40
+D.Mail,0,202,118,53
+D.Torso Plate,129,0,117,58
+D.Leg Plate,129,59,110,58
+D.Greave,129,118,128,60
+D.Helm,129,179,68,46
+D.Small Helm,198,179,64,48
+D.Sandals,129,228,88,38
+D.Leather Boots,247,-1,148,57
+D.Black Boots,247,57,148,57
+D.Elven Boots,258,115,95,60
+D.Boots Of Speed,263,176,96,67
+D.Halter,396,0,110,41
+D.Crown,396,42,46,33
+D.Necklace,443,42,62,21
+D.Moonstone,396,76,32,19
+D.Pendant,429,76,32,17
+D.Choker,462,76,28,21
+D.Chest,354,115,94,59
+D.Bones,360,175,158,50
+D.Rope,449,115,64,36
+D.Ring,556,109,12,7
+D.Worm Round,507,0,59,53
+D.Cheese,507,54,58,35
+D.Screamer Slice,514,90,41,57
+D.Bread,519,148,41,36
+D.Apple,567,0,38,31
+D.Corn,567,32,42,25
+D.Drumstick,567,58,50,26
+D.Steak,567,85,50,23
+D.Waterskin,520,191,80,31
+D.Axe,0,256,131,34
+D.Large Shield,132,267,140,48
+D.Mace,0,291,127,33
+D.Morningstar,0,325,154,38
+D.Small Shield,155,316,114,55
+D.Club,270,312,132,31
+D.Stone Club,270,344,124,36
+D.Arrow,403,320,117,11
+D.Slayer,403,332,115,11
+D.Dragon Spit,403,344,98,9
+D.Vorpal Blade,273,244,169,36
+D.Sword,273,281,159,30
+D.Poison Dart,521,321,59,9
+D.Dagger,487,354,51,16
+D.Wand,603,185,44,3
+D.Crossbow,444,226,146,57
+D.Bow,461,284,160,35
+D.Stick,601,190,120,22
+D.Staff,601,213,128,9
+D.Sceptre,591,223,146,21
+D.Snake Staff,591,245,116,34
+D.The Conduit,622,280,126,33
+D.Firestaff,606,314,142,21
+D.Firestaff Gem,600,336,148,26
+D.Flamitt,438,354,48,19
+D.Throwing Star,403,354,34,18
+Axe,2,643,32,32
+Hardcleave,35,643,32,32
+Mace,68,643,32,32
+Mace Of Order,101,643,32,32
+Morningstar,134,643,32,32
+Club,167,643,32,32
+Stone Club,200,643,32,32
+Club:Left,0,382,119,77
+Club:Away,120,382,43,78
+Club:Toward,164,382,47,82
+Club:Right,212,382,119,77
+Stone Club:Left,0,460,119,77
+Stone Club:Away,120,461,43,78
+Stone Club:Toward,164,465,47,82
+Stone Club:Right,212,460,119,77
+Axe:Left,0,538,117,88
+Axe:Away,117,540,37,86
+Axe:Toward,155,548,41,79
+Axe:Right,197,548,117,88
+Dragon Spit:Empty,233,643,32,32
+Dragon Spit:Full,266,643,32,32
+Firestaff,299,643,32,32
+Firestaff Gem,332,643,32,32
+Sceptre Of Lyf,2,676,32,32
+Snake Staff,35,676,32,32
+Staff,68,676,32,32
+Staff Of Claws,101,676,32,32
+Staff Of Manar,134,676,32,32
+Stick,167,676,32,32
+Teowand,200,676,32,32
+The Conduit,233,676,32,32
+Wand,266,676,32,32
+Yew Staff,299,676,32,32
+Bolt Blade:Empty,2,742,32,32
+Bolt Blade:Full,35,742,32,32
+Dagger,68,742,32,32
+Delta,101,742,32,32
+Diamond Edge,134,742,32,32
+Falchion,167,742,32,32
+Fury:Empty,200,742,32,32
+Fury:Full,233,742,32,32
+Rapier,266,742,32,32
+Sabre,299,742,32,32
+Samurai Sword,332,742,32,32
+Sword,365,742,32,32
+The Inquisitor,398,742,32,32
+Vorpal Blade,431,742,32,32
+Sword:Away,754,0,29,54
+Sword:Left,784,0,157,53
+Sword:Right,754,55,157,53
+Sword:Toward,913,56,35,49
+Vorpal Blade:Away,754,109,25,58
+Vorpal Blade:Left,780,109,170,63
+Vorpal Blade:Right,756,173,170,63
+Vorpal Blade:Toward,927,174,34,51
+Arrow,2,709,32,32
+Bow,35,709,32,32
+Crossbow,68,709,32,32
+Speedbow,101,709,32,32
+Poison Dart,134,709,32,32
+Slayer,167,709,32,32
+Sling,200,709,32,32
+Throwing Star,233,709,32,32
+Arrow:Left,756,237,117,11
+Arrow:Right,756,249,117,11
+Arrow:Away,874,237,24,16
+Arrow:Toward,899,237,23,19
+Slayer:Away,874,256,26,17
+Slayer:Toward,901,257,25,18
+Dart:Away,878,282,16,12
+Dart:Toward,895,281,13,12
+Slayer:Left,756,261,115,11
+Slayer:Right,756,273,115,11
+Dart:Right,756,285,59,9
+Dart:Left,817,285,59,9
+Throwing Star:Away,756,295,11,34
+Throwing Star:Left,768,295,32,32
+Throwing Star:Right,801,295,32,32
+Throwing Star:Toward,834,296,11,34
+Flamitt:Empty,266,709,32,32
+Flamitt:Used,299,709,32,32
+Flamitt:Full,332,709,32,32
+Choker,332,544,32,32
+Ekkhard Cross,365,544,32,32
+Gem Of Ages,398,544,32,32
+Illumlet:On,431,544,32,32
+Illumlet:Off,464,544,32,32
+Jewel Symal:Off,497,544,32,32
+Jewel Symal:On,530,544,32,32
+Moonstone,563,544,32,32
+Pendant Feral,596,544,32,32
+The Hellion,629,544,32,32
+Armet,333,379,32,32
+Basinet,366,380,32,32
+Berzerker Helm,400,381,32,32
+Calista,432,380,32,32
+Casque'n Coif,466,379,32,32
+Crown Nerra,497,380,32,32
+Dexhelm,528,379,32,32
+Helm Of Darc,694,378,32,32
+Helm Of Lyte,727,379,32,32
+Helmet,760,379,32,32
+Cape,332,412,32,32
+Cloak Of Night,365,412,32,32
+Elven Doublet,398,412,32,32
+Fine Robe,431,412,32,32
+Flamebain,464,412,32,32
+Ghi,497,412,32,32
+Halter,530,412,32,32
+Kirtle,563,412,32,32
+Leather Jerkin,596,412,32,32
+Mail Aketon,629,412,32,32
+Mithril Aketon,662,412,32,32
+PlateOf Darc,694,412,32,32
+Plate Of Lyte,727,412,32,32
+Robe,761,412,32,32
+Silk Shirt,629,379,32,32
+Torso Plate,794,412,32,32
+Tunic,596,379,32,32
+Barbarian Hide,332,445,32,32
+Poleyn Of Darc,695,445,32,32
+Poleyn Of Lyte,727,445,32,32
+Ghi Trousers,497,445,32,32
+Mithril Mail,662,445,32,32
+Elven Huke,398,445,32,32
+Fine Robe Trousers,431,445,32,32
+Leg Plate,793,445,32,32
+Gunna,464,445,32,32
+Blue Pants,563,445,32,32
+Leather Pants,596,445,32,32
+Leg Mail,629,445,32,32
+Powertowers,431,478,32,32
+Robe Trousers,760,445,32,32
+Tabard,530,445,32,32
+Greave Of Darc,695,478,32,32
+Greave Of Lyte,728,478,32,32
+Sandals,332,478,32,32
+Elven Boots,398,478,32,32
+Black Boots,761,478,32,32
+Boots Of Speed,497,478,32,32
+Leather Boots,596,478,32,32
+Mail Hosen,629,478,32,32
+Mithril Hosen,662,478,32,32
+Foot Plate,794,478,32,32
+Buckler,332,511,32,32
+Hide Shield,365,511,32,32
+Large Shield,398,511,32,32
+Shield Of Darc,431,511,32,32
+Shield Of Lyte,464,511,32,32
+Small Shield,497,511,32,32
+Wooden Shield,530,511,32,32
+Apple,332,610,32,32
+Bread,365,610,32,32
+Cheese,398,610,32,32
+Corn,431,610,32,32
+Dragon Steak,465,610,32,32
+Drumstick,498,610,32,32
+Screamer Slice,531,610,32,32
+Waterskin:0,564,610,32,32
+Waterskin:3,597,610,32,32
+Worm Round,630,610,32,32
+Compass:N,530,709,32,32
+Compass:E,563,709,32,32
+Compass:S,596,709,32,32
+Compass:W,629,709,32,32
+Blue Magical Box,497,643,32,32
+Corbamite:Off,629,676,32,32
+Corbamite:On,662,676,32,32
+Green Magical Box,530,643,32,32
+Scroll:Closed,662,709,32,32
+Scroll:Open,695,709,32,32
+Copper Coin,563,511,32,32
+Gold Coin,596,511,32,32
+Silver Coin,629,511,32,32
+Rope,497,709,32,32
+Storm Ring:Empty,365,643,32,32
+Storm Ring:Full,398,643,32,32
+Eye Of Time:Empty,431,643,32,32
+Eye Of Time:Full,464,643,32,32
+Rabbit's Foot,365,709,32,32
+Magnifier,431,709,32,32
+Mirror Of Dawn,398,709,32,32
+Horn Of Fear,332,676,32,32
+Orange Gem,662,511,32,32
+Green Gem,695,511,32,32
+Blue Gem,728,511,32,32
+ZoKathRa,695,676,32,32
+Bones,695,640,32,32
+Ashes,662,641,32,32
+Boulder,629,641,32,32
+Rock,596,643,32,32
+Chest,563,643,32,32
+Torch:0,365,676,32,32
+Torch:1,398,676,32,32
+Torch:2,431,676,32,32
+Torch:3,464,676,32,32
+Torch:4,497,676,32,32
+Torch:5,530,676,32,32
+Torch:6,563,676,32,32
+Torch:7,596,676,32,32
+Lock Picks,464,709,32,32
+Bolt Bomb,332,577,32,32
+Bro Potion:Cure Poison,365,577,32,32
+Dane Potion:Wisdom,398,577,32,32
+Ma Potion:Stamina,431,577,32,32
+Ku Potion:Strength,464,577,32,32
+Ee Potion:Mana,497,577,32,32
+Ful Bomb,530,577,32,32
+Neta Potion:Vitality,563,577,32,32
+Ros Potion:Dexterity,596,577,32,32
+Ven Bomb,630,577,32,32
+Vi Potion:Health,663,577,32,32
+Water Flask:Empty,696,577,32,32
+Water Flask:Full,729,577,32,32
+Ya Potion:Magic Shield,762,577,32,32
+Cross Key,464,742,32,32
+Gold Key,497,742,32,32
+Emerald Key,530,742,32,32
+Iron Key,563,742,32,32
+Key Of B,596,742,32,32
+Master Key,629,742,32,32
+Onyx Key,662,742,32,32
+Ra Key,695,742,32,32
+Ruby Key,728,742,32,32
+Solid Key,761,742,32,32
+Sapphire Key,794,742,32,32
+Skeleton Key,794,709,32,32
+Square Key,794,676,32,32
+Topaz Key,728,709,32,32
+Tourquoise Key,761,709,32,32
+Winged Key,761,676,32,32

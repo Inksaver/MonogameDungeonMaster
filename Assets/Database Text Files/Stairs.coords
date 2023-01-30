@@ -1,0 +1,45 @@
+# Relative=True / False to represent coordinates are relative to position of Dungeon/Champion display area
+Relative=True
+#layer 4
+StairsUpRail.L4,0,0
+StairsUp.C4,0,222
+StairsUpRail.R4,384,0
+
+StairsDownRail.L4,0,0
+StairsDown.C4,0,222
+StairsDownRail.R4,384,0
+
+#layer 3
+StairsUpRail.L3,0,21
+StairsUp.L3,0,21
+StairsUp.C3,64,21
+StairsUp.R3,328,21
+StairsUpRail.R3,328,21
+
+StairsDownRail.L3,0,21
+StairsDown.L3,0,21
+StairsDown.C3,64,21
+StairsDown.R3,328,21
+StairsDownRail.R3,328,21
+
+#layer 2
+StairsUpRail.L2,0,48
+StairsUp.L2,0,48
+StairsUp.C2,120,48
+StairsUp.R2,298,48
+StairsUpRail.R2,298,48
+
+StairsDownRail.L2,0,48
+StairsDown.L2,0,48
+StairsDown.C2,120,48
+StairsDown.R2,298,48
+StairsDownRail.R2,298,48
+
+# layer 1
+StairsUp.L1,0,48
+StairsUp.C1,148,61
+StairsUp.R1,298,48
+
+StairsDown.L1,0,48
+StairsDown.C1,48,61
+StairsDown.R1,298,48

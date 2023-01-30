@@ -1,0 +1,16 @@
+"",0
+"Neophyte",500
+"Novice",1000
+"Apprentice",2000
+"Journeyman",4000
+"Craftsman",8000
+"Artisan",16000
+"Adept",32000
+"Expert",64000
+"Lo Master",128000
+"Um Master",256000
+"On Master",512000
+"Ee Master",1024000
+"Pal Master",2048000
+"Mon Master",4096000
+"Archmaster",8192000

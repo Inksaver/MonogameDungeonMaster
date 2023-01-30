@@ -1,0 +1,36 @@
+# coordinates of positions to place letter images taken from GUI / Editor image
+# editorCoords = 208, 190
+# y (namePoints)  = Shared.DungeonY (84) + 108
+# y (titlePoints) = Shared.DungeonY (84) + 146
+# x (namePoints)  = editorCoords.X + 145 px from edge of Editor image to start of Name line
+# x (titlePoints) = editorCoords.X + 1 px from edge of Editor image to start of Title line
+# namePoints = new Point[]{ new Point(x, 108 + y)...
+# titlePoints = new Point[]{ new Point(x, 146 + y)...
+									
+namePoints.0,353,108
+namePoints.1,365,108
+namePoints.2,377,108
+namePoints.3,389,108
+namePoints.4,401,108
+namePoints.5,413,108
+namePoints.6,425,108
+
+titlePoints.0,209,146
+titlePoints.1,221,146
+titlePoints.2,233,146
+titlePoints.3,245,146
+titlePoints.4,257,146
+titlePoints.5,269,146
+titlePoints.6,281,146
+titlePoints.7,293,146
+titlePoints.8,305,146
+titlePoints.9,317,146
+titlePoints.10,329,146
+titlePoints.11,341,146
+titlePoints.12,353,146
+titlePoints.13,365,146
+titlePoints.14,377,146
+titlePoints.15,389,146
+titlePoints.16,401,146
+titlePoints.17,413,146
+titlePoints.18,425,146

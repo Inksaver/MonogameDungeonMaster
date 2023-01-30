@@ -1,0 +1,183 @@
+# Targets=Group:True/False name used to subdivide Target objects to relevant gamestate
+# True / False to represent coordinates are relative to position of Dungeon/Champion display area
+# Movement buttons
+Targets=Movement:False
+TurnLeft,468,305,54,51
+MoveForward,526,305,54,51
+TurnRight,582,305,54,51
+MoveLeft,468,357,54,51
+MoveBack,526,357,54,51
+MoveRight,582,357,54,51
+
+# Each ChampionButton has 4 active areas
+# Top left allows changing leader without opening the interface
+# L and R are Hands, Stats are coloured bars
+Targets=ChampionButtons:False
+Champion0Name,0,0,86,16
+Champion0L,8,24,32,32
+Champion0R,48,24,32,32
+Champion0Stats,86,0,47,69
+
+Champion1Name,142,0,86,16
+Champion1L,150,24,32,32
+Champion1R,190,24,32,32
+Champion1Stats,228,0,47,69
+
+Champion2Name,283,0,86,16
+Champion2L,292,24,32,32
+Champion2R,330,24,32,32
+Champion2Stats,369,0,47,69
+
+Champion3Name,425,0,86,16
+Champion3L,434,24,32,32
+Champion3R,472,24,32,32
+Champion3Stats,511,0,47,69
+
+# ChampionIcon are the 4 symbols top right representing the position and direction of each champion
+# They can be selected and moved between the 4 locations to change the positions for each one
+Targets=ChampionIcons:False
+ChampionIcon0,564,5,32,32
+ChampionIcon1,602,5,32,32
+ChampionIcon2,564,37,32,32
+ChampionIcon3,602,37,32,32
+
+# 4 rectangles with outline of Item in centre representing weapon held
+Targets=ChampionHands:False
+ChampionHand0,466,206,42,90
+ChampionHand1,510,206,42,90
+ChampionHand2,554,206,42,90
+ChampionHand3,598,206,42,90
+
+# Spell Title displays current active champion
+SpellTitle,465,104,90,18
+
+# coordinates for text / active button
+Targets=Gameplay:False
+#SpellTitle1:1,465,104,90,18
+#SpellTitle1:2,465,104,90,18
+#SpellTitle2:2,495,104,90,18
+#SpellTitle1:3,465,104,90,18
+#SpellTitle2:3,495,104,90,18
+#SpellTitle3:3,525,104,90,18
+#SpellTitle1:4,555,104,90,18
+#SpellTitle2:4,495,104,90,18
+#SpellTitle3:4,525,104,90,18
+#SpellTitle4:4,555,104,90,18
+
+# Spell 0 - 5 are the 6 symbols used to cast a spell
+Spell0,470,125,26,26
+Spell1,498,125,26,26
+Spell2,526,125,26,26
+Spell3,554,125,26,26
+Spell4,582,125,26,26
+Spell5,610,125,26,26
+SpellBackspace,610,154,26,26
+
+# Action interface has Champion name in the title box, up to 3 actions eg Bash, Swing, Parry
+ActionTitle,465,188,90,18
+Action0,468,210,170,26
+Action1,468,238,170,26
+Action2,468,267,170,26
+
+# Mouse targets for Image Resurrect from GUI spritesheet
+# 3 buttons for user choices
+Targets=ChampionNew:True
+Resurrect,206,104,110,110
+Reincarnate,323,104,110,110
+Cancel,206,222,232,26
+
+Targets=Champion:True
+# # and empty lines are ignored.
+
+# Rectangles used for Mouse Targets and image placement for Items
+# ChampionInterface only
+# Sleep / Save / Close Window
+ZZZ,261,6,34,18
+Save,348,6,20,19
+Close,420,6,19,18
+
+# Look/Eat: Mouse clicked here with Item as cursor = Display properties / Eat / Drink
+Look,17,21,42,39
+Eat,105,21,42,39
+
+# Body parts 
+Neck,12,66,32,32
+Hand,12,106,32,32
+Weapon,124,106,32,32
+Head,68,52,32,32
+Torso,68,92,32,32
+Legs,68,132,32,32
+Feet,68,172,32,32
+
+# Pouch and Quiver use 2 digit location as 2 digits needed for Inventory
+Pouch00,12,168,32,32
+Pouch01,12,201,32,32
+
+# Quiver top row / middle row / bottom row
+Quiver00,124,167,32,32
+Quiver01,158,167,32,32
+Quiver02,124,201,32,32
+Quiver03,158,201,32,32
+Quiver04,124,235,32,32
+Quiver05,158,235,32,32
+
+# Inventory top row/ bottom row
+Inventory00,166,32,32,32
+Inventory01,199,32,32,32
+Inventory02,233,32,32,32
+Inventory03,268,32,32,32
+Inventory04,302,32,32,32
+Inventory05,336,32,32,32
+Inventory06,369,32,32,32
+Inventory07,404,32,32,32
+Inventory08,166,66,32,32
+Inventory09,199,66,32,32
+Inventory10,233,66,32,32
+Inventory11,268,66,32,32
+Inventory12,302,66,32,32
+Inventory13,336,66,32,32
+Inventory14,369,66,32,32
+Inventory15,404,66,32,32
+
+# ScrollPanel is the Open Scroll Image rectangle location and size when placed
+# The source rectangle is obtained from GUI.data
+# ScrollPanel,156,104,287,152
+
+Targets=OpenChest:True
+# ChestPanel is the Open Chest Image rectangle location and size when placed
+# The source rectangle is obtained from GUI.data
+ChestPanel,156,104,282,180
+
+# Targets / Image Locations for Items in the Open Chest
+OpenChest00,226,207,32,32
+OpenChest01,260,207,32,32
+OpenChest02,294,207,32,32
+OpenChest03,328,207,32,32
+OpenChest04,362,207,32,32
+OpenChest05,396,207,32,32
+OpenChest06,226,241,32,32
+OpenChest07,260,241,32,32
+OpenChest08,294,241,32,32
+OpenChest09,328,241,32,32
+OpenChest10,362,241,32,32
+
+#Dungeon Targets
+Targets=Dungeon:True
+# Floor lef/right are within the player cell
+FloorLeft,64,287,160,40
+FloorRight,226,287,160,40
+# Floor AheadLeft AheadRight are in the cell in front
+FloorAheadLeft,62,242,163,42
+FloorAheadRight,224,242,163,42
+# Wall is entire wall area use this first, then find sub-areas
+Wall,64,21,320,267
+WallAlcove,137,175,122,45
+# WallSound used to check if clicked on no other active area and make a sound
+WallSound,64,21,320,142
+WallMirror,190,88,66,60
+WallSconce,200,93,43,115
+WallStoneButton,190,88,65,16
+WallSmallButton,218,206,11,11
+WallCentre,202,49,42,117
+WallDoor,335,98,22,32
+WallCrackButton,214,221,10,10

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="20" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="91">
+ <editorsettings>
+  <export target="Level01.js" format="js"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Tiles16x16extended" tilewidth="16" tileheight="16" spacing="1" tilecount="96" columns="32">
+  <image source="tiles16x16.png" width="543" height="50"/>
+ </tileset>
+ <layer id="1" name="Walls" width="20" height="19">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,
+1,1,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,1,1,
+1,1,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,1,
+1,0,0,1,1,0,1,1,1,1,0,0,0,1,0,0,0,1,1,1,
+1,1,0,1,1,0,1,1,1,1,0,1,0,1,0,0,0,0,0,1,
+1,1,0,0,0,0,1,1,1,1,0,0,0,1,1,1,0,1,1,1,
+1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,
+1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,1,1,1,1,0,1,1,0,1,1,0,0,0,1,0,1,0,1,1,
+1,1,0,0,1,0,0,1,0,1,1,1,1,1,1,0,1,0,1,1,
+1,1,0,0,1,0,1,0,0,0,0,1,1,1,0,0,1,0,1,1,
+1,1,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,1,1,
+1,1,0,1,1,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,
+1,1,0,1,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,1,
+1,0,0,1,1,0,1,0,0,0,0,1,1,1,1,1,0,1,0,1,
+1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,
+1,1,1,1,1,33,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="7" name="FloorDecorations" width="20" height="19" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="18" name="Ceilings" visible="0">
+  <object id="78" name="CP01" gid="31" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="FromCoordinate" value="-1,-1"/>
+    <property name="FromLevel" value="-1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="17" name="Doors" visible="0">
+  <object id="52" name="Door02" gid="74" x="96" y="160" width="16" height="16">
+   <properties>
+    <property name="Control" value="Remote"/>
+    <property name="ControlLocation" value="7,9"/>
+    <property name="Frame" value="Frame"/>
+    <property name="IsBreakable" type="bool" value="false"/>
+    <property name="IsToggled" type="bool" value="false"/>
+    <property name="OpenState" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="53" name="Door01" gid="83" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Control" value="Button"/>
+    <property name="ControlLocation" value=""/>
+    <property name="Frame" value="FrameButton"/>
+    <property name="IsBreakable" type="bool" value="false"/>
+    <property name="IsToggled" type="bool" value="true"/>
+    <property name="OpenState" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="54" name="Door03" gid="65" x="32" y="240" width="16" height="16">
+   <properties>
+    <property name="Control" value="Button"/>
+    <property name="ControlLocation" value=""/>
+    <property name="Frame" value="FrameButton"/>
+    <property name="IsBreakable" type="bool" value="false"/>
+    <property name="IsToggled" type="bool" value="true"/>
+    <property name="OpenState" type="float" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="16" name="WallDecorations" visible="0">
+  <object id="51" name="WD02" class="Decorations" gid="62" x="64" y="160" width="16" height="16">
+   <properties>
+    <property name="E" value="Manacles"/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="68" name="WD07" class="Decorations" gid="62" x="96" y="176" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value=""/>
+    <property name="S" value="Wallgrate;Wallhook"/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="74" name="WD13" class="Decorations" gid="62" x="64" y="272" width="16" height="16">
+   <properties>
+    <property name="E" value="Wallring"/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="62" name="WD01" class="Decorations" gid="62" x="128" y="32" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value="Wallhook"/>
+   </properties>
+  </object>
+  <object id="63" name="WD03" class="Decorations" gid="62" x="96" y="80" width="16" height="16">
+   <properties>
+    <property name="E" value="Wallhook"/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="64" name="WD04" class="Decorations" gid="62" x="240" y="144" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value=""/>
+    <property name="S" value="Wallslime"/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="66" name="WD05" class="Decorations" gid="62" x="288" y="192" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value="Wallring"/>
+   </properties>
+  </object>
+  <object id="75" name="WD14" class="Decorations" gid="62" x="96" y="256" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value="Wallring"/>
+   </properties>
+  </object>
+  <object id="67" name="WD06" class="Decorations" gid="62" x="96" y="208" width="16" height="16">
+   <properties>
+    <property name="E" value="Wallhook"/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="69" name="WD08" class="Decorations" gid="62" x="224" y="144" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value=""/>
+    <property name="S" value="Wallring"/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="70" name="WD09" class="Decorations" gid="62" x="176" y="240" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value=""/>
+    <property name="S" value="Wallhook"/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="71" name="WD10" class="Decorations" gid="62" x="16" y="288" width="16" height="16">
+   <properties>
+    <property name="E" value="Wallring"/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="72" name="WD11" class="Decorations" gid="62" x="64" y="304" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value="Wallgrate"/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="73" name="WD12" class="Decorations" gid="62" x="48" y="272" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value=""/>
+    <property name="S" value="Wallgrate"/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="22" name="WallActuators" visible="0">
+  <object id="82" name="Fireball2" class="Launcher" gid="52" x="176" y="32" width="16" height="16"/>
+  <object id="83" name="Fireball1" class="Launcher" gid="50" x="144" y="32" width="16" height="16"/>
+  <object id="90" name="Sconce01" gid="60" x="64" y="240" width="16" height="16">
+   <properties>
+    <property name="E" value="SconceT:7"/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="Champions" visible="0">
+  <object id="25" name="C00" gid="43" x="176" y="64" width="16" height="16"/>
+  <object id="26" name="C02" gid="43" x="240" y="48" width="16" height="16"/>
+  <object id="27" name="C05" gid="43" x="272" y="128" width="16" height="16"/>
+  <object id="28" name="C19" gid="43" x="128" y="144" width="16" height="16"/>
+  <object id="29" name="C22" gid="43" x="208" y="144" width="16" height="16"/>
+  <object id="30" name="C10" gid="43" x="224" y="192" width="16" height="16"/>
+  <object id="50" name="C15" gid="43" x="144" y="240" width="16" height="16"/>
+  <object id="31" name="C08" gid="43" x="272" y="272" width="16" height="16"/>
+  <object id="32" name="C03" gid="44" x="272" y="80" width="16" height="16"/>
+  <object id="33" name="C09" gid="44" x="256" y="208" width="16" height="16"/>
+  <object id="34" name="C16" gid="44" x="176" y="224" width="16" height="16"/>
+  <object id="35" name="C11" gid="44" x="240" y="240" width="16" height="16"/>
+  <object id="36" name="C01" gid="41" x="176" y="112" width="16" height="16"/>
+  <object id="37" name="C04" gid="41" x="240" y="128" width="16" height="16"/>
+  <object id="40" name="C20" gid="41" x="160" y="176" width="16" height="16"/>
+  <object id="41" name="C06" gid="41" x="288" y="176" width="16" height="16"/>
+  <object id="42" name="C21" gid="41" x="192" y="192" width="16" height="16"/>
+  <object id="43" name="C17" gid="41" x="128" y="240" width="16" height="16"/>
+  <object id="44" name="C07" gid="41" x="272" y="256" width="16" height="16"/>
+  <object id="45" name="C13" gid="41" x="192" y="272" width="16" height="16"/>
+  <object id="46" name="C14" gid="41" x="128" y="288" width="16" height="16"/>
+  <object id="47" name="C23" gid="42" x="144" y="128" width="16" height="16"/>
+  <object id="48" name="C18" gid="42" x="96" y="224" width="16" height="16"/>
+  <object id="49" name="C12" gid="42" x="192" y="224" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="21" name="Stairs" visible="0">
+  <object id="77" name="Stairs01" gid="27" x="64" y="256" width="16" height="16">
+   <properties>
+    <property name="TargetCell" value="4,15"/>
+    <property name="TargetLevel" value="02"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="WallWriting" visible="0">
+  <object id="57" name="WritingChampions" gid="45" x="144" y="96" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value="Hall Of Champions"/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+  <object id="58" name="WritingAltar" gid="48" x="96" y="288" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value=""/>
+    <property name="S" value=""/>
+    <property name="W" value="Vi Altar Of Rebirth"/>
+   </properties>
+  </object>
+  <object id="81" name="WritingTest" gid="45" x="32" y="144" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value="This is line 1;This is line 2;This is line 3;this is line 4"/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="AlcoveItems">
+  <object id="20" name="AL01" gid="33" x="80" y="304" width="16" height="16">
+   <properties>
+    <property name="E" value=""/>
+    <property name="N" value="Scroll:Text=New lives/for old bones"/>
+    <property name="S" value=""/>
+    <property name="W" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="FloorActuators" visible="0">
+  <object id="1" name="DoorActuator" class="PartyExit" gid="32" x="112" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToggled" type="bool" value="false"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="6,9"/>
+   </properties>
+  </object>
+  <object id="7" name="PartyDeath" class="DeathTrap" gid="32" x="160" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToggled" type="bool" value="false"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="9,1;11,1"/>
+   </properties>
+  </object>
+  <object id="10" name="MoveParty" class="DeathTrap" gid="32" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Teleport"/>
+    <property name="IsToggled" type="bool" value="false"/>
+    <property name="IsVisible" type="bool" value="false"/>
+    <property name="ObjectRequired" value="Firestaff"/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="10,1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="FloorItems">
+  <object id="12" name="Items01" gid="61" x="80" y="160" width="16" height="16">
+   <properties>
+    <property name="NE" value=""/>
+    <property name="NW" value="Apple"/>
+    <property name="SE" value=""/>
+    <property name="SW" value=""/>
+   </properties>
+  </object>
+  <object id="17" name="Items02" gid="61" x="96" y="192" width="16" height="16">
+   <properties>
+    <property name="NE" value="Bread"/>
+    <property name="NW" value=""/>
+    <property name="SE" value=""/>
+    <property name="SW" value=""/>
+   </properties>
+  </object>
+  <object id="19" name="Items04" gid="61" x="80" y="256" width="16" height="16">
+   <properties>
+    <property name="NE" value=""/>
+    <property name="NW" value=""/>
+    <property name="SE" value="Scroll:Text=Invoke FUL for a magic torch"/>
+    <property name="SW" value="Waterskin:3"/>
+   </properties>
+  </object>
+  <object id="21" name="Items06" gid="61" x="16" y="272" width="16" height="16">
+   <properties>
+    <property name="NE" value=""/>
+    <property name="NW" value=""/>
+    <property name="SE" value=""/>
+    <property name="SW" value="Corn"/>
+   </properties>
+  </object>
+  <object id="22" name="Items07" gid="61" x="48" y="224" width="16" height="16">
+   <properties>
+    <property name="NE" value=""/>
+    <property name="NW" value=""/>
+    <property name="SE" value="Bread"/>
+    <property name="SW" value=""/>
+   </properties>
+  </object>
+  <object id="23" name="Items08" gid="61" x="48" y="208" width="16" height="16">
+   <properties>
+    <property name="NE" value="Cheese"/>
+    <property name="NW" value=""/>
+    <property name="SE" value=""/>
+    <property name="SW" value=""/>
+   </properties>
+  </object>
+  <object id="24" name="Items09" gid="61" x="48" y="192" width="16" height="16">
+   <properties>
+    <property name="NE" value="Apple"/>
+    <property name="NW" value=""/>
+    <property name="SE" value=""/>
+    <property name="SW" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
