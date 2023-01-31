@@ -1,0 +1,37 @@
+Top row
+1 = Solid wall normal (Image Layer)
+2, 3, 4, 5 = Alcove on n, e, s, w (Image Layer)
+6, 7, 8, 9, 10, 11 = Alcoves n+e, e+s, s+w, w+n, n+s, e+w (Image Layer)
+12, 13, 14, 15, 16 = Alcoves n+e+s, e+s+w, s+w+n, w+n+e, n+e+s+w (Image Layer)
+17 = Fake wall (Image Layer)
+18 = Moveable wall (Image Layer)
+19 = Ceiling Pit (Object Layer)
+20, 21, 22, 23 = Stairs up n, e, s, w (Object Layer)
+24, 25, 26, 27 = Stairs down n, e, s, w (Object Layer)
+28 = Teleporter 
+29 = Flux cage
+30, 31, 32 = Floor pit, Hidden Floor pit, Floorswitch (Object Layer)
+Centre Row
+33, 34, 35, 36 = altar on n, e, s, w
+37, 38, 39, 40 = fountain on n, e, s, w
+41, 42, 43, 44 = mirror on n, e, s, w (Object Layer)
+45, 46, 47, 48 = writing on n, e, s, w (Object Layer)
+49, 50, 51, 52 = WallActuator (launcher fireball/weapon on n, e, s, w) (Object Layer)
+53, 54 = Slime, Puddle
+55, 56, 57 = Lower WallActuators (Sconce), Floor Items, WallDecorations (Object Layer)
+58, 59, 60, 61 = spin 90 deg (Object Layer)
+62, 63 = spin 180deg E ↔ W, spin 180 deg N ↔ S (Object Layer) 
+Bottom Row
+65, 66 = wood door n/s, e/w (Doors Layer)
+67, 68 = wood dr+window n/s, e/w (Doors Layer)
+69, 70 = broken door n/s, e/w (Doors Layer)
+71, 72 = broken grate n/s, e/w (Doors Layer)
+73, 74 = complete grate n/s, e/w (Doors Layer)
+75, 76 = red door n/s, e/w (Object Layer)
+77, 78 = decorated wood door n/s, e/w (Doors Layer)
+79, 80 = decorated metal door n/s, e/w (Doors Layer)
+81, 82 = black door+grate n/s, e/w (Doors Layer)
+83, 84 = black door n/s, e/w (Doors Layer)
+85, 86 = glass door n/s (Doors Layer)
+87, 88 = Stone pillar, Brick pillar (Image Layer)
+
