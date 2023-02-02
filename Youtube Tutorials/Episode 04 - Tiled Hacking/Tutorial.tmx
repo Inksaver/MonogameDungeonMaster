@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="10" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="27">
+ <tileset firstgid="1" name="TilesAllLayers" tilewidth="16" tileheight="16" spacing="1" tilecount="128" columns="32">
+  <image source="TilesAllLayers.png" width="543" height="67"/>
+ </tileset>
+ <layer id="1" name="Walls" width="10" height="5">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,
+1,1,0,0,0,1,1,1,1,1,
+1,0,0,0,0,0,0,0,0,1,
+1,1,0,0,0,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="2" name="FloorDecorations" width="10" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Ceilings"/>
+ <objectgroup id="4" name="Doors">
+  <object id="25" name="FrontDoor" gid="74" x="96" y="48" width="16" height="16">
+   <properties>
+    <property name="Control" value="Remote"/>
+    <property name="ControlLocation" value=""/>
+    <property name="Frame" value="Frame"/>
+    <property name="IsBreakable" type="bool" value="false"/>
+    <property name="IsToggled" type="bool" value="true"/>
+    <property name="OpenState" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="26" name="BackDoor" gid="74" x="112" y="48" width="16" height="16">
+  <properties>
+    <property name="Control" value="Remote"/>
+    <property name="ControlLocation" value=""/>
+    <property name="Frame" value="Frame"/>
+    <property name="IsBreakable" type="bool" value="false"/>
+    <property name="IsToggled" type="bool" value="true"/>
+    <property name="OpenState" type="float" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="WallDecorations"/>
+ <objectgroup id="6" name="WallActuators"/>
+ <objectgroup id="7" name="Champions"/>
+ <objectgroup id="8" name="Stairs"/>
+ <objectgroup id="9" name="WallWriting"/>
+ <objectgroup id="10" name="AlcoveItems"/>
+ <objectgroup id="11" name="FloorActuators" opacity="0.5">
+ <object id="12" name="G00" gid="32" x="32" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToiggled" type="bool" value="true"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="6,2"/>
+   </properties>
+  </object>
+  <object id="13" name="G01" gid="32" x="48" y="32" width="16" height="16">
+  <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToiggled" type="bool" value="true"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="7,2"/>
+   </properties>
+  </object>
+  <object id="14" name="G02" gid="32" x="64" y="32" width="16" height="16">
+  <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToiggled" type="bool" value="true"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="6,2"/>
+   </properties>
+  </object>
+  <object id="15" name="G03" gid="32" x="32" y="48" width="16" height="16">
+  <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToiggled" type="bool" value="true"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="6,2"/>
+   </properties>
+  </object>
+  <object id="16" name="G04" gid="32" x="48" y="48" width="16" height="16">
+  <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToiggled" type="bool" value="true"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="7,2"/>
+   </properties>
+  </object>
+  <object id="17" name="G05" gid="32" x="64" y="48" width="16" height="16">
+  <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToiggled" type="bool" value="true"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="6,2"/>
+   </properties>
+  </object>
+  <object id="18" name="G06" gid="32" x="32" y="64" width="16" height="16">
+  <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToiggled" type="bool" value="true"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="6,2"/>
+   </properties>
+  </object>
+  <object id="19" name="G07" gid="32" x="48" y="64" width="16" height="16">
+  <properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToiggled" type="bool" value="true"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="7,2"/>
+   </properties>
+  </object>
+  <object id="20" name="G08" gid="32" x="64" y="64" width="16" height="16">
+<properties>
+    <property name="Action" value="Activate"/>
+    <property name="IsToiggled" type="bool" value="true"/>
+    <property name="IsVisible" type="bool" value="true"/>
+    <property name="ObjectRequired" value=""/>
+    <property name="PartySize" type="int" value="1"/>
+    <property name="Target" value="6,2"/>
+   </properties>
+  </object>  
+ </objectgroup>
+ <objectgroup id="21" name="FloorItems"/>
+ <objectgroup id="22" name="Monsters"/>
+</map>

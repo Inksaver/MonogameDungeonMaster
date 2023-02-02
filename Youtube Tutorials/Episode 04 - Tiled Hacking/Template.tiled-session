@@ -1,0 +1,75 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Tutorial.tmx",
+    "expandedProjectPaths": [
+    ],
+    "exportAsImage.drawTileGrid": false,
+    "exportAsImage.includeBackgroundColor": false,
+    "exportAsImage.useCurrentScale": true,
+    "exportAsImage.visibleLayersOnly": true,
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Tutorial.tmx": {
+            "expandedObjectLayers": [
+                11,
+                4
+            ],
+            "scale": 5.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 89.45454545454545,
+                "y": 51.81818181818181
+            }
+        },
+        "Tutorial.tmx#TilesAllLayers": {
+            "scaleInDock": 1
+        },
+        "Tutorial2.tmx": {
+            "expandedObjectLayers": [
+                11,
+                4
+            ],
+            "scale": 4,
+            "selectedLayer": 10,
+            "viewCenter": {
+                "x": 800,
+                "y": 800
+            }
+        },
+        "Tutorial2.tmx#TilesAllLayers": {
+            "scaleInDock": 3
+        }
+    },
+    "last.imagePath": "Assets/Tiled/Template",
+    "map.fixedSize": true,
+    "map.height": 100,
+    "map.lastUsedExportFilter": "JSON map files (*.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.orientation": 1,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 100,
+    "openFiles": [
+        "Tutorial.tmx",
+        "Tutorial2.tmx"
+    ],
+    "project": "Template.tiled-project",
+    "property.type": "float",
+    "recentFiles": [
+        "Tutorial2.tmx",
+        "Tutorial.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.margin": 0,
+    "tileset.spacing": 1,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.transparentColor": "#ff00ff",
+    "tileset.type": 0,
+    "tileset.useTransparentColor": false
+}
